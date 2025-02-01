@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuentra tu médico</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Encuentra tu médico</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="buscador">
+        <center><br>
+            <h2>Busca un médico</h2>
+            <form id="form-busqueda">
+                <input type="text" id="especialidad" placeholder="Especialidad">
+                <input type="text" id="ubicacion" placeholder="Ubicación">
+                <button type="submit">Buscar</button>
+            </form>
+        </center>
+    </section>
+
+    <center>
+        <section id="resultados">
+            <h2>Resultados</h2>
+            <div id="lista-medicos"></div>
+        </section>
+    </center>
+
+    <footer>
+        <p>&copy; 2023 Encuentra tu médico <br> Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
