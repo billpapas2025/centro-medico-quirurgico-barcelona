@@ -91,9 +91,7 @@ main {
 
 #buscador input {
     font-family: "comfortaa";
-    padding: 10px;
-    margin-right: 10px;
-    width: 200px;
+    padding: 4px;
     border: 2px solid #00b59c;
     border-radius: 25px;
 }
@@ -132,10 +130,9 @@ main {
     background-color: #00b59c;
     color: rgb(0, 0, 0);
     padding: 15px;
-    border: 1px solid #ddd;
     border-radius: 25px;
     width: calc(33.333% - 40px);
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 .medico h3 {
@@ -144,24 +141,29 @@ main {
 }
 
 .medico a {
-    background-color: royalblue;
+    background-color: rgb(255, 255, 255);
     border-radius: 25px;
     padding: 10px;
     font-family: "comfortaa";
     display: inline-block;
     margin-top: 10px;
-    color: #ffffff;
+    color: #00b59c;
     font-weight: bold;
 }
 
 /* Página de detalles del médico */
 #detalle-medico {
+    width: 85%;
     font-family: "comfortaa";
     background-color: white;
     padding: 20px;
+    flex-wrap: wrap;
     border-radius: 25px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    margin: 20px auto;
+    /* Centra horizontalmente */
+    display: block;
+    /* Asegura que se comporte como un bloque */
 }
 
 #detalle-medico h2 {
@@ -176,11 +178,14 @@ main {
 
 /* Formulario de reserva */
 #formulario-reserva {
+    border-radius: 25px;
     font-family: "comfortaa";
     background-color: white;
     padding: 20px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-    margin-bottom: 20px;
+    margin: 0 auto 20px;
+    width: 85%;
+    text-align: center;
 }
 
 #formulario-reserva h2 {
@@ -197,7 +202,7 @@ main {
 
 #formulario-reserva input {
     font-family: "comfortaa";
-    width: 100%;
+    width: 85%;
     padding: 10px;
     margin-top: 5px;
     border: 1px solid #ddd;
