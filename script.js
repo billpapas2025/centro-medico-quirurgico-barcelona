@@ -1,3 +1,15 @@
+document.addEventListener('DOMContentLoaded', function() {
+    const landingPage = document.getElementById('landing-page');
+    const contenidoPrincipal = document.getElementById('contenido-principal');
+    const cerrarLandingButton = document.getElementById('cerrar-landing');
+
+    // Ocultar la landing page y mostrar el contenido principal
+    cerrarLandingButton.addEventListener('click', function() {
+        landingPage.style.display = 'none';
+        contenidoPrincipal.classList.remove('oculto');
+    });
+});
+
 document.getElementById('form-busqueda').addEventListener('submit', function(event) {
     event.preventDefault();
     const especialidad = document.getElementById('especialidad').value;

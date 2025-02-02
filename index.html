@@ -12,36 +12,50 @@
 </head>
 
 <body>
-    <header>
-        <h1>Encuentra tu médico</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-            </ul>
-        </nav>
-    </header>
+    <!-- Landing Page -->
+    <div id="landing-page">
+        <div class="landing-content">
+            <h1>Bienvenido a Encuentra tu médico</h1>
+            <p>La plataforma donde puedes encontrar al especialista que necesitas.</p>
+            <button id="cerrar-landing"><strong>Entra a Plataforma</strong></button>
+        </div>
+    </div>
 
-    <section id="buscador">
-        <center><br>
-            <h2>Busca un médico</h2>
-            <form id="form-busqueda">
-                <input type="text" id="especialidad" placeholder="Especialidad">
-                <input type="text" id="ubicacion" placeholder="Ubicación">
-                <button type="submit">Buscar</button>
-            </form>
-        </center>
-    </section>
+    <!-- Contenido principal (oculto al inicio) -->
+    <div id="contenido-principal" class="oculto">
+        <header>
+            <h1>Encuentra tu médico</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                </ul>
+            </nav>
+        </header>
 
-    <center>
+        <section id="buscador"><br>
+            <center>
+                <h2>Busca un médico</h2>
+            </center>
+            <center>
+                <form id="form-busqueda">
+                    <input type="text" id="especialidad" placeholder="Especialidad">
+                    <input type="text" id="ubicacion" placeholder="Ubicación">
+                    <button type="submit">Buscar</button>
+                </form>
+            </center>
+        </section>
+
         <section id="resultados">
-            <h2>Resultados</h2>
+            <center>
+                <h2>Resultados</h2>
+            </center>
             <div id="lista-medicos"></div>
         </section>
-    </center>
 
-    <footer>
-        <p>&copy; 2023 Encuentra tu médico <br> Todos los derechos reservados.</p>
-    </footer>
+        <footer>
+            <p>&copy; 2025 Encuentra tu médico <br> Todos los derechos reservados.</p>
+        </footer>
+    </div>
 
     <script src="script.js"></script>
 </body>
