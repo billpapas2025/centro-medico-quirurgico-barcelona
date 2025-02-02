@@ -1,4 +1,4 @@
-/* Estilos generales */
+﻿/* Estilos generales */
 body {
     font-family: "comfortaa";
     margin: 0;
@@ -19,7 +19,7 @@ h2 {
 
 h3 {
     font-family: "comfortaa";
-    color: rgb(255, 255, 255);
+    color: greenyellow;
 }
 
 a {
