@@ -127,8 +127,8 @@ main {
 
 .medico {
     font-family: "comfortaa";
-    background-color: #00b59c;
-    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    color: rgb(0, 140, 179);
     padding: 15px;
     border-radius: 25px;
     width: calc(33.333% - 40px);
@@ -141,13 +141,13 @@ main {
 }
 
 .medico a {
-    background-color: rgb(255, 255, 255);
+    background-color: #00b59c;
     border-radius: 25px;
     padding: 10px;
     font-family: "comfortaa";
     display: inline-block;
     margin-top: 10px;
-    color: #00b59c;
+    color: #ffffff;
     font-weight: bold;
 }
 

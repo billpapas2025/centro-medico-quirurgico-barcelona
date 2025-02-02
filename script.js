@@ -31,9 +31,9 @@ function buscarMedicos(especialidad, ubicacion) {
         { id: 3, nombre: 'Dra. Gloria', especialidad: 'Psicología', ubicacion: 'Barcelona', descripcion: 'Experto en psicología con más de 10 años de experiencia.' },
         { id: 4, nombre: 'Dra. Carolina', especialidad: 'Podología', ubicacion: 'Barcelona', descripcion: 'Experto en podología con más de 10 años de experiencia.' },
         { id: 5, nombre: 'Dr. Ghassan', especialidad: 'Dermatología', ubicacion: 'Barcelona', descripcion: 'Experto en dermatología con más de 10 años de experiencia.' },
-        { id: 6, nombre: 'Dr. Sarkis', especialidad: 'Cardiología', ubicacion: 'Premia del Mar', descripcion: 'Experto en cardiología con más de 10 años de experiencia.' },
+        { id: 6, nombre: 'Dr. Sarkis', especialidad: 'Cardiología', ubicacion: 'Barcelona', descripcion: 'Experto en cardiología con más de 10 años de experiencia.' },
         { id: 7, nombre: 'Dr. Borras', especialidad: 'Psiquiatría', ubicacion: 'Barcelona', descripcion: 'Experto en psiquiatría con más de 10 años de experiencia.' },
-        { id: 8, nombre: 'Dr. Rius', especialidad: 'Urología', ubicacion: 'Premia del Mar', descripcion: 'Experto en urología con más de 10 años de experiencia.' },
+        { id: 8, nombre: 'Dr. Rius', especialidad: 'Urología', ubicacion: 'Barcelona', descripcion: 'Experto en urología con más de 10 años de experiencia.' },
     ];
 
     return medicos.filter(medico => {
