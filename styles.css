@@ -19,7 +19,7 @@ h2 {
 
 h3 {
     font-family: "comfortaa";
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 a {
@@ -342,7 +342,7 @@ footer p {
 img {
     width: 240px;
     height: 115px;
-    border-radius: 100px;
+    border-radius: 10px;
 }
 
 #cerrar-landing {
