@@ -4,14 +4,14 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Simulación de datos de médicos
     const medicos = [
-        { id: 1, nombre: 'Dra. Hamila', especialidad: 'Oftalmología', ubicacion: 'Barcelona', descripcion: 'Experto en oftalmología con más de 10 años de experiencia.' },
-        { id: 2, nombre: 'Dra. Claudia', especialidad: 'Odontología', ubicacion: 'Barcelona', descripcion: 'Experto en odontologíacon más de 10 años de experiencia.' },
-        { id: 3, nombre: 'Dra. Gloria', especialidad: 'Psicología', ubicacion: 'Barcelona', descripcion: 'Experto en psicología con más de 10 años de experiencia.' },
-        { id: 4, nombre: 'Dra. Carolina', especialidad: 'Podología', ubicacion: 'Barcelona', descripcion: 'Experto en podología con más de 10 años de experiencia.' },
-        { id: 5, nombre: 'Dr. Ghassan', especialidad: 'Dermatología', ubicacion: 'Barcelona', descripcion: 'Experto en dermatología con más de 10 años de experiencia.' },
-        { id: 6, nombre: 'Dr. Sarkis', especialidad: 'Cardiología', ubicacion: 'Barcelona', descripcion: 'Experto en cardiología con más de 10 años de experiencia.' },
-        { id: 7, nombre: 'Dr. Borras', especialidad: 'Psiquiatría', ubicacion: 'Barcelona', descripcion: 'Experto en psiquiatría con más de 10 años de experiencia.' },
-        { id: 8, nombre: 'Dr. Rius', especialidad: 'Urología', ubicacion: 'Barcelona', descripcion: 'Experto en urología con más de 10 años de experiencia.' },
+        { id: 1, nombre: 'Dra. Hamila', especialidad: 'Oftalmología', ubicacion: 'Barcelona', descripcion: 'Oftalmología: Cuidado y tratamiento de los ojos.' },
+        { id: 2, nombre: 'Dra. Claudia', especialidad: 'Odontología', ubicacion: 'Barcelona', descripcion: 'Odontología: Salud bucal y dental.' },
+        { id: 3, nombre: 'Dra. Gloria', especialidad: 'Psicología', ubicacion: 'Barcelona', descripcion: 'Psicología: Estudio y tratamiento de la mente.' },
+        { id: 4, nombre: 'Dra. Carolina', especialidad: 'Podología', ubicacion: 'Barcelona', descripcion: 'Podología: Cuidado de los pies y sus afecciones.' },
+        { id: 5, nombre: 'Dr. Ghassan', especialidad: 'Dermatología', ubicacion: 'Barcelona', descripcion: 'Experto en Dermatología: Tratamiento de la piel y sus enfermedades.' },
+        { id: 6, nombre: 'Dr. Sarkis', especialidad: 'Cardiología', ubicacion: 'Barcelona', descripcion: 'Cardiología: Estudio y tratamiento del corazón.' },
+        { id: 7, nombre: 'Dr. Borras', especialidad: 'Psiquiatría', ubicacion: 'Barcelona', descripcion: 'Diagnóstico y tratamiento de trastornos mentales.' },
+        { id: 8, nombre: 'Dr. Rius', especialidad: 'Urología', ubicacion: 'Barcelona', descripcion: 'Urología: Cuidado del sistema urinario y masculino.' },
     ];
 
     const medico = medicos.find(m => m.id == medicoId);

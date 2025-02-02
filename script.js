@@ -60,7 +60,7 @@ function mostrarResultados(medicos) {
         medicoDiv.innerHTML = `
             <h3>${medico.nombre}</h3>
             <p><strong>Especialidad:</strong> ${medico.especialidad}</p>
-            <p><strong>Ubicación:</strong> ${medico.ubicacion}</p>
+            <p><strong>Ubicación (visita en) :</strong> ${medico.ubicacion}</p>
             <a href="detalle-medico.html?id=${medico.id}">Ver detalles</a>
         `;
         listaMedicos.appendChild(medicoDiv);
