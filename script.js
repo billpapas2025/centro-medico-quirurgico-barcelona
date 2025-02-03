@@ -34,6 +34,14 @@ function buscarMedicos(especialidad, ubicacion) {
         { id: 6, nombre: 'Dr. Sarkis', especialidad: 'Cardiología', ubicacion: 'Barcelona', descripcion: 'Experto en cardiología con más de 10 años de experiencia.' },
         { id: 7, nombre: 'Dr. Borras', especialidad: 'Psiquiatría', ubicacion: 'Barcelona', descripcion: 'Experto en psiquiatría con más de 10 años de experiencia.' },
         { id: 8, nombre: 'Dr. Rius', especialidad: 'Urología', ubicacion: 'Barcelona', descripcion: 'Experto en urología con más de 10 años de experiencia.' },
+        { id: 9, nombre: 'Dra. Hamila', especialidad: 'Oftalmología', ubicacion: 'Premia del Mar', descripcion: 'Experto en oftalmología con más de 10 años de experiencia.' },
+        { id: 10, nombre: 'Dra. Claudia', especialidad: 'Odontología', ubicacion: 'Premia del Mar', descripcion: 'Experto en odontologíacon más de 10 años de experiencia.' },
+        { id: 11, nombre: 'Dra. Gloria', especialidad: 'Psicología', ubicacion: 'Premia del Mar', descripcion: 'Experto en psicología con más de 10 años de experiencia.' },
+        { id: 12, nombre: 'Dra. Carolina', especialidad: 'Podología', ubicacion: 'Premia del Mar', descripcion: 'Experto en podología con más de 10 años de experiencia.' },
+        { id: 13, nombre: 'Dr. Ghassan', especialidad: 'Dermatología', ubicacion: 'Premia del Mar', descripcion: 'Experto en dermatología con más de 10 años de experiencia.' },
+        { id: 14, nombre: 'Dr. Sarkis', especialidad: 'Cardiología', ubicacion: 'Premia del Mar', descripcion: 'Experto en cardiología con más de 10 años de experiencia.' },
+        { id: 15, nombre: 'Dr. Borras', especialidad: 'Psiquiatría', ubicacion: 'Premia del Mar', descripcion: 'Experto en psiquiatría con más de 10 años de experiencia.' },
+        { id: 16, nombre: 'Dr. Rius', especialidad: 'Urología', ubicacion: 'Premia del Mar', descripcion: 'Experto en urología con más de 10 años de experiencia.' },
     ];
 
     return medicos.filter(medico => {

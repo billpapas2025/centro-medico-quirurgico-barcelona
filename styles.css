@@ -19,7 +19,12 @@ h2 {
 
 h3 {
     font-family: "comfortaa";
-    color: greenyellow;
+    color: gray;
+}
+
+h4 {
+    font-family: "comfortaa";
+    color: rgb(255, 255, 255);
 }
 
 a {
